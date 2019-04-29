@@ -10,13 +10,45 @@
 
 body {
   background: black; }
-  body header .header-logo-menu .logo {
-    display: flex; }
-    body header .header-logo-menu .logo .img-logo {
-      width: 15%;
-      height: 10%; }
-    body header .header-logo-menu .logo .index-marca {
-      color: white;
-      font-family: "krunch_italic",sans-serif; }
+  body header {
+    width: 100%; }
+    body header .header-logo-menu {
+      display: flex; }
+      body header .header-logo-menu .logo {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body header .header-logo-menu .logo .img-logo {
+          width: 30%; }
+        body header .header-logo-menu .logo .index-marca {
+          color: white;
+          font-family: "krunch_italic",sans-serif;
+          font-size: 2.5em; }
+      body header .header-logo-menu .menu {
+        width: 80%; }
+        body header .header-logo-menu .menu .lista-menu {
+          height: 100%; }
+          body header .header-logo-menu .menu .lista-menu .lista-items {
+            height: 100%;
+            width: auto;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center; }
+            body header .header-logo-menu .menu .lista-menu .lista-items li {
+              display: block;
+              background: black;
+              padding: 14px 20px;
+              color: white;
+              text-decoration: none; }
+              body header .header-logo-menu .menu .lista-menu .lista-items li a {
+                font-family: "krunch_italic", sans-serif;
+                font-size: 2em;
+                text-decoration: none;
+                color: white; }
+            body header .header-logo-menu .menu .lista-menu .lista-items li:hover {
+              background-color: #276A9C; }
+              body header .header-logo-menu .menu .lista-menu .lista-items li:hover a {
+                color: white; }
 
 /*# sourceMappingURL=style.css.map */
