@@ -1,5 +1,22 @@
+@font-face {
+  font-family: "Spac3 tech free promo","krunch_italic";
+  src: url("../fonts/Spac3 tech free promo.ttf"); }
+@font-face {
+  font-family: "krunch_italic";
+  src: url("../fonts/krunch_italic.ttf"); }
 * {
   margin: 0;
   padding: 0; }
+
+body {
+  background: black; }
+  body header .header-logo-menu .logo {
+    display: flex; }
+    body header .header-logo-menu .logo .img-logo {
+      width: 15%;
+      height: 10%; }
+    body header .header-logo-menu .logo .index-marca {
+      color: white;
+      font-family: "krunch_italic",sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
