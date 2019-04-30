@@ -1,9 +1,12 @@
 @font-face {
-  font-family: "Spac3 tech free promo","krunch_italic";
+  font-family: "Spac3 tech free promo";
   src: url("../fonts/Spac3 tech free promo.ttf"); }
 @font-face {
   font-family: "krunch_italic";
   src: url("../fonts/krunch_italic.ttf"); }
+@font-face {
+  font-family: "Musieer";
+  src: url("../fonts/Musieer.ttf"); }
 * {
   margin: 0;
   padding: 0; }
@@ -42,13 +45,13 @@ body {
               color: white;
               text-decoration: none; }
               body header .header-logo-menu .menu .lista-menu .lista-items li a {
-                font-family: "krunch_italic", sans-serif;
-                font-size: 2em;
+                font-family: "Musieer", sans-serif;
+                font-size: 1.2em;
                 text-decoration: none;
                 color: white; }
             body header .header-logo-menu .menu .lista-menu .lista-items li:hover {
-              background-color: #276A9C; }
+              background-color: #ddd; }
               body header .header-logo-menu .menu .lista-menu .lista-items li:hover a {
-                color: white; }
+                color: black; }
 
 /*# sourceMappingURL=style.css.map */
