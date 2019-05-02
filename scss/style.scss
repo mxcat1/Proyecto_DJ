@@ -1,21 +1,13 @@
-@font-face {
-  font-family: "Spac3 tech free promo";
-  src: url("../fonts/Spac3 tech free promo.ttf");
-}
-@font-face {
-  font-family: "krunch_italic";
-  src: url("../fonts/krunch_italic.ttf");
-}
-@font-face {
-  font-family: "Musieer";
-  src: url("../fonts/Musieer.ttf");
-}
+@import "fuentes";
 
 *{
   margin: 0;
   padding: 0;
 }
 body{
+  display: block;
   background: black;
   @import "header";
+  @import "seccion";
+  @import "footer";
 }

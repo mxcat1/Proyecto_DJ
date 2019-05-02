@@ -7,14 +7,19 @@
 @font-face {
   font-family: "Musieer";
   src: url("../fonts/Musieer.ttf"); }
+@font-face {
+  font-family: "Zilap Monograma DEMO";
+  src: url("../fonts/Zilap Monograma DEMO.ttf"); }
 * {
   margin: 0;
   padding: 0; }
 
 body {
+  display: block;
   background: black; }
   body header {
-    width: 100%; }
+    width: 100%;
+    height: 30%; }
     body header .header-logo-menu {
       display: flex; }
       body header .header-logo-menu .logo {
@@ -53,5 +58,142 @@ body {
               background-color: #ddd; }
               body header .header-logo-menu .menu .lista-menu .lista-items li:hover a {
                 color: black; }
+  body #section-index .baner-index {
+    width: 1349px;
+    overflow: hidden; }
+    body #section-index .baner-index #sliderimgs {
+      width: 8094px;
+      overflow: hidden;
+      animation: slide 20s infinite;
+      -moz-animation: slide 20s infinite;
+      -webkit-animation: slide 20s infinite;
+      -o-animation: slide 20s infinite; }
+      body #section-index .baner-index #sliderimgs .imgbanner {
+        float: left; }
+@keyframes slide {
+  0% {
+    margin-left: 0px; }
+  13.1% {
+    margin-left: 0px; }
+  16.7% {
+    margin-left: -1349px; }
+  29.8% {
+    margin-left: -1349px; }
+  33.4% {
+    margin-left: -2698px; }
+  46.5% {
+    margin-left: -2698px; }
+  50.1% {
+    margin-left: -4047px; }
+  63.2% {
+    margin-left: -4047px; }
+  66.8% {
+    margin-left: -5396px; }
+  79.9% {
+    margin-left: -5396px; }
+  83.5% {
+    margin-left: -6745px; }
+  96.6% {
+    margin-left: -6745px; }
+  100% {
+    margin-left: 0px; } }
+  body #section-index #site-text {
+    width: 1349px;
+    height: 500px;
+    position: absolute;
+    top: 82px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    body #section-index #site-text h1 {
+      color: white;
+      font-family: "krunch_italic",sans-serif;
+      font-size: 5em;
+      text-shadow: black 0.2em 0.2em 0.2em;
+      -webkit-text-stroke: 5px rgba(0, 0, 0, 0.4); }
+    body #section-index #site-text p {
+      color: #fff;
+      font-family: "Zilap Monograma DEMO",sans-serif;
+      text-align: center;
+      font-size: 2em;
+      text-shadow: #000 0.2em 0.2em 0.2em; }
+  body #section-index2 {
+    width: 100%;
+    margin-top: 60px; }
+    body #section-index2 .articles-index {
+      width: 100%; }
+      body #section-index2 .articles-index .titulo-section {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        body #section-index2 .articles-index .titulo-section h1 {
+          font-family: "krunch_italic",sans-serif;
+          font-size: 3em;
+          color: white; }
+      body #section-index2 .articles-index .nuevo-index {
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center; }
+        body #section-index2 .articles-index .nuevo-index .poster {
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          body #section-index2 .articles-index .nuevo-index .poster .poster-img-1 {
+            background-image: url(../img/dj1.jpg);
+            background-position: center;
+            background-clip: content-box;
+            border-radius: 15px;
+            width: 400px;
+            height: 300px; }
+          body #section-index2 .articles-index .nuevo-index .poster .poster-img-2 {
+            background-image: url(../img/dj2.jpg);
+            background-position: center;
+            background-clip: content-box;
+            border-radius: 15px;
+            width: 400px;
+            height: 300px; }
+          body #section-index2 .articles-index .nuevo-index .poster .poster-img-3 {
+            background-image: url(../img/dj3.jpg);
+            background-position: center;
+            background-clip: content-box;
+            border-radius: 15px;
+            width: 400px;
+            height: 300px; }
+          body #section-index2 .articles-index .nuevo-index .poster .poster-titulo {
+            padding-top: 15px;
+            text-align: center;
+            font-size: 1.5em;
+            font-family: Musieer ,sans-serif; }
+          body #section-index2 .articles-index .nuevo-index .poster .poster-texto {
+            padding: 15px 50px 15px 50px;
+            text-align: center;
+            font-size: 1em;
+            font-family: "Typo moiser techno",sans-serif; }
+          body #section-index2 .articles-index .nuevo-index .poster .boton-video {
+            background: black;
+            width: 80px;
+            height: 30px;
+            color: white;
+            font-family: "Typo moiser techno",sans-serif;
+            font-size: 1em;
+            border-radius: 25px; }
+      body #section-index2 .articles-index .datos-contacto {
+        width: 100%;
+        display: flex;
+        padding-top: 50px; }
+        body #section-index2 .articles-index .datos-contacto .datos {
+          width: 80%; }
+        body #section-index2 .articles-index .datos-contacto .soundcloud {
+          width: 80%; }
+        body #section-index2 .articles-index .datos-contacto .youtube {
+          width: 80%; }
+  body footer {
+    width: 100%;
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */
