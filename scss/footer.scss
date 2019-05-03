@@ -1,4 +1,24 @@
 footer{
   width: 100%;
   color: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .copyright{
+    width: 100%;
+    color: rgba(255,255,255,0.5);
+  }
+  .redes-sociales{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    a{
+      display: block;
+      padding: 10px;
+      font-size: 2em;
+      color: white;
+    }
+  }
 }

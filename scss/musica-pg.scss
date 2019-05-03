@@ -1,0 +1,25 @@
+.titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  h1{
+    color: white;
+    font-family: "krunch_italic",sans-serif;
+    font-size: 3em;
+    text-shadow: black 0.2em 0.2em 0.2em;
+    -webkit-text-stroke: 5px rgba(0,0,0,0.4);
+  }
+}
+.musica-nueva{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  .row{
+    display: flex;
+    flex-direction: row;
+    .musica{
+
+    }
+  }
+}

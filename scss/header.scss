@@ -13,9 +13,12 @@ header{
         width: 30%;
       }
       .index-marca{
-        color: white;
         font-family: "krunch_italic",sans-serif;
         font-size: 2.5em;
+        a{
+          text-decoration: none;
+          color: white;
+        }
       }
     }
     .menu{

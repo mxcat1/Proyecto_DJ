@@ -30,9 +30,11 @@ body {
         body header .header-logo-menu .logo .img-logo {
           width: 30%; }
         body header .header-logo-menu .logo .index-marca {
-          color: white;
           font-family: "krunch_italic",sans-serif;
           font-size: 2.5em; }
+          body header .header-logo-menu .logo .index-marca a {
+            text-decoration: none;
+            color: white; }
       body header .header-logo-menu .menu {
         width: 80%; }
         body header .header-logo-menu .menu .lista-menu {
@@ -187,13 +189,95 @@ body {
         display: flex;
         padding-top: 50px; }
         body #section-index2 .articles-index .datos-contacto .datos {
-          width: 80%; }
+          padding: 50px;
+          width: 80%;
+          color: white;
+          font-family: "Typo moiser techno",sans-serif; }
+          body #section-index2 .articles-index .datos-contacto .datos h1 {
+            font-size: 1.5em;
+            font-family: "Typo moiser techno",sans-serif; }
+          body #section-index2 .articles-index .datos-contacto .datos p {
+            padding: 10px;
+            font-family: Musieer,sans-serif;
+            font-size: 0.8em; }
+            body #section-index2 .articles-index .datos-contacto .datos p img {
+              color: white; }
+          body #section-index2 .articles-index .datos-contacto .datos .yt-suscribirse {
+            padding: 10px;
+            position: absolute;
+            left: 150px; }
         body #section-index2 .articles-index .datos-contacto .soundcloud {
-          width: 80%; }
+          width: 80%;
+          color: white;
+          padding: 40px; }
+          body #section-index2 .articles-index .datos-contacto .soundcloud h1 {
+            font-size: 1.5em;
+            font-family: "Typo moiser techno",sans-serif; }
         body #section-index2 .articles-index .datos-contacto .youtube {
-          width: 80%; }
+          width: 80%;
+          color: white;
+          padding: 40px; }
+          body #section-index2 .articles-index .datos-contacto .youtube h1 {
+            font-size: 1.5em;
+            font-family: "Typo moiser techno",sans-serif; }
+  body #seccion {
+    width: 100%;
+    height: 100%; }
+    body #seccion .baner img {
+      width: 100%; }
+    body #seccion .baner .baner-text {
+      width: 1349px;
+      height: 500px;
+      position: absolute;
+      top: 82px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      body #seccion .baner .baner-text h1 {
+        color: white;
+        font-family: "krunch_italic",sans-serif;
+        font-size: 5em;
+        text-shadow: black 0.2em 0.2em 0.2em;
+        -webkit-text-stroke: 5px rgba(0, 0, 0, 0.4); }
+  body .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px; }
+    body .titulo h1 {
+      color: white;
+      font-family: "krunch_italic",sans-serif;
+      font-size: 3em;
+      text-shadow: black 0.2em 0.2em 0.2em;
+      -webkit-text-stroke: 5px rgba(0, 0, 0, 0.4); }
+  body .musica-nueva {
+    display: flex;
+    flex-direction: column;
+    padding: 30px; }
+    body .musica-nueva .row {
+      display: flex;
+      flex-direction: row; }
   body footer {
     width: 100%;
-    color: white; }
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body footer .copyright {
+      width: 100%;
+      color: rgba(255, 255, 255, 0.5); }
+    body footer .redes-sociales {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px; }
+      body footer .redes-sociales a {
+        display: block;
+        padding: 10px;
+        font-size: 2em;
+        color: white; }
 
 /*# sourceMappingURL=style.css.map */
