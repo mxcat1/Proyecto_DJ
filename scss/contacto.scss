@@ -1,0 +1,62 @@
+//.titulo-form{
+//  text-align: center;
+//  margin-top: 100px;
+//  color: white;
+//}
+.formulario-contacto{
+  padding-top: 100px;
+  width: 100%;
+  display: flex;
+  color: white;
+  .formulario{
+    width: 50%;
+    //padding: 50px;
+    .titulo-form{
+      text-align: center;
+      font-family: "Typo moiser techno",sans-serif;
+      font-size: 1.5em;
+    }
+    #form1{
+      width: 50%;
+      padding: 30px;
+      //display: flex;
+      //flex-direction: column;
+      input{
+        margin: 10px;
+        padding: 2px;
+      }
+      label{
+        padding: 10px;
+        font-family: "Typo moiser techno",sans-serif;
+        font-size: 1em;
+      }
+      select{
+        @extend input
+      }
+      .gustos{
+        //width: 80%;
+        border: white 2px solid;
+        .gustos-items{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          @media only screen and (max-width: 1300px) {
+            &{
+              flex-direction: column;
+            }
+          }
+          input{
+            margin: 0;
+          }
+        }
+      }
+      #btnenviar{
+        width: 100px;
+        height: 35px;
+        font-size: 1em;
+        font-weight: bold;
+      }
+    }
+  }
+}

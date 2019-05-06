@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="img/logo.png" type="image/png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body id="body">
 
@@ -44,13 +45,68 @@
                 </h1>
             </div>
         </article>
+
         <article class="formulario-contacto">
-            <form action="" id="form1">
-                <label for="txtnombres" style="color: white">Nombres</label>
-                <input type="text" name="txtnombres" id="txtnombres">
-            </form>
+
+            <div class="formulario">
+                <div class="titulo-form">
+                    <h1>Queremos saber sobre ti Contactanos</h1>
+                </div>
+                <form action="" id="form1">
+                    <label for="txtnombres" >Nombres</label>
+                    <input type="text" name="txtnombres" id="txtnombres">
+                    <label for="txtapellidos">Apellidos</label>
+                    <input type="text" name="txtapellidos" id="txtapellidos">
+
+                    <div class="genero">
+                        <label >Genero</label>
+                        <label for="rbgeneM">Masculino</label>
+                        <input type="radio" name="genero" id="rbgeneM" value="Masculino">
+                        <label for="rbgeneF">Femenino</label>
+                        <input type="radio" name="genero" id="rbgeneF" value="Femenino">
+                    </div>
+                    <label for="Svocacion">Vocación</label>
+                    <select name="Svocacion" id="Svocacion">
+                        <option value="">Seleccione un Opcion</option>
+                        <option value="Musico">Musico</option>
+                        <option value="Compositor">Compositor</option>
+                        <option value="Diseñador">Diseñador</option>
+                        <option value="Ingeniero">Ingeniero</option>
+                        <option value="Otros">Otros</option>
+                    </select>
+                    <div class="gustos">
+                        <label >Gustos Musicales</label>
+                        <div class="gustos-items">
+                            <label for="chkdrop">Drop</label>
+                            <input type="checkbox" name="chkgustos" id="chkdrop" value="Drop">
+                            <label for="chkdubstep">Dubstep</label>
+                            <input type="checkbox" name="chkgustos" id="chkdubstep" value="Dubstep">
+                            <label for="chktechno">Techno</label>
+                            <input type="checkbox" name="chkgustos" id="chktechno" value="Techno">
+                            <label for="chkpop">Pop</label>
+                            <input type="checkbox" name="chkgustos" id="chkpop" value="Pop">
+                        </div>
+                    </div>
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="054282659" pattern="[0-9]{6}" title="Numeros del 0 al 9 solo 6">
+                    <label for="celular">Celular</label>
+                    <input type="tel" name="celular" id="celular" placeholder="054958565265" pattern="[0-9]{12}" title="Numeros del 0 al 9 solo 12">
+                    <br>
+                    <label for="nbedad">Edad</label>
+                    <input type="number" name="edad" id="nbedad" min="1" max="80">
+                    <br>
+                    <button type="submit" value="Enviar" id="btnenviar">Enviar</button>
+                </form>
+            </div>
+
             <div id="mapa-contacto">
+                <div class="titulo-mapa">
+                    <h1>Nos encontramos en: </h1>
+                </div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d15310.099113955312!2d-71.53085069999999!3d-16.3981532!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m3!3m2!1d-16.4019202!2d-71.5319665!4m0!5e0!3m2!1ses!2spe!4v1556940578853!5m2!1ses!2spe" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div id="coordenadas" style="font-size: 2em; color: white">
+
+                </div>
             </div>
         </article>
         <article class="datos-contacto">
@@ -70,6 +126,7 @@
             <a href=""><i class="fab fa-youtube"></i></a>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </div>
 
 </body>

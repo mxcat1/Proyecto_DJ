@@ -241,24 +241,71 @@ body {
         font-size: 5em;
         text-shadow: black 0.2em 0.2em 0.2em;
         -webkit-text-stroke: 5px rgba(0, 0, 0, 0.4); }
-  body .titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 70px; }
-    body .titulo h1 {
-      color: white;
-      font-family: "krunch_italic",sans-serif;
-      font-size: 3em;
-      text-shadow: black 0.2em 0.2em 0.2em;
-      -webkit-text-stroke: 5px rgba(0, 0, 0, 0.4); }
-  body .musica-nueva {
-    display: flex;
-    flex-direction: column;
-    padding: 30px; }
-    body .musica-nueva .row {
+    body #seccion .titulo {
       display: flex;
-      flex-direction: row; }
+      justify-content: center;
+      align-items: center;
+      margin-top: 70px; }
+      body #seccion .titulo h1 {
+        color: white;
+        font-family: "krunch_italic",sans-serif;
+        font-size: 3em;
+        text-shadow: black 0.2em 0.2em 0.2em;
+        -webkit-text-stroke: 5px rgba(0, 0, 0, 0.4); }
+    body #seccion .musica-nueva {
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      justify-content: center;
+      align-items: center; }
+      body #seccion .musica-nueva .row {
+        display: flex;
+        flex-direction: row; }
+        body #seccion .musica-nueva .row .musica {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body #seccion .musica-nueva .row .musica .logo-musica img {
+            width: 150px;
+            height: 100px; }
+    body #seccion .formulario-contacto {
+      padding-top: 100px;
+      width: 100%;
+      display: flex;
+      color: white; }
+      body #seccion .formulario-contacto .formulario {
+        width: 50%; }
+        body #seccion .formulario-contacto .formulario .titulo-form {
+          text-align: center;
+          font-family: "Typo moiser techno",sans-serif;
+          font-size: 1.5em; }
+        body #seccion .formulario-contacto .formulario #form1 {
+          width: 50%;
+          padding: 30px; }
+          body #seccion .formulario-contacto .formulario #form1 input, body #seccion .formulario-contacto .formulario #form1 select {
+            margin: 10px;
+            padding: 2px; }
+          body #seccion .formulario-contacto .formulario #form1 label {
+            padding: 10px;
+            font-family: "Typo moiser techno",sans-serif;
+            font-size: 1em; }
+          body #seccion .formulario-contacto .formulario #form1 .gustos {
+            border: white 2px solid; }
+            body #seccion .formulario-contacto .formulario #form1 .gustos .gustos-items {
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+              @media only screen and (max-width: 1300px) {
+                body #seccion .formulario-contacto .formulario #form1 .gustos .gustos-items {
+                  flex-direction: column; } }
+              body #seccion .formulario-contacto .formulario #form1 .gustos .gustos-items input, body #seccion .formulario-contacto .formulario #form1 .gustos .gustos-items select {
+                margin: 0; }
+          body #seccion .formulario-contacto .formulario #form1 #btnenviar {
+            width: 100px;
+            height: 35px;
+            font-size: 1em;
+            font-weight: bold; }
   body footer {
     width: 100%;
     color: white;

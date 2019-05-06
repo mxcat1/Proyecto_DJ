@@ -1,3 +1,4 @@
+//FALTA COMPLETA LA PAGINA DE MUSICA
 .titulo{
   display: flex;
   justify-content: center;
@@ -15,11 +16,21 @@
   display: flex;
   flex-direction: column;
   padding: 30px;
+  justify-content: center;
+  align-items: center;
   .row{
     display: flex;
     flex-direction: row;
     .musica{
-
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .logo-musica{
+        img{
+          width: 150px;
+          height: 100px;
+        }
+      }
     }
   }
 }
